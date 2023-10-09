@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
     build:
         name: Build
-        runs-on: ubuntu-latest
+        runs-on: self-hosted
         steps:
             - name: Install Go
               uses: actions/setup-go@v2
